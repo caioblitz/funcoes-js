@@ -23,3 +23,6 @@ const animal = {
 console.log(calculaIdade.call(pessoa2, 30))
 console.log(calculaIdade.call(pessoa1, 30))
 console.log(calculaIdade.call(animal, 10))
+console.log(calculaIdade.apply(pessoa2, [30]))
+console.log(calculaIdade.apply(pessoa1, [30]))
+console.log(calculaIdade.apply(animal, [10]))
